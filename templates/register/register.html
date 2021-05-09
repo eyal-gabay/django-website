@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body
+        {
+        background-color: #262626;
+    }
+
+    #cube{
+        border-style: solid;
+        background-color: #4d4d4d;
+        height: 550px;
+        width: 800px;
+        position: absolute;
+        top: 20%;
+        left: 25%
+    }
+
+    h3{
+        position: relative;
+        left: 5%;
+        top: 2%;
+    }
+
+    #div{
+        position: relative;
+        left: 50%;
+        top: 8%;
+    }
+
+    #div2{
+        position: relative;
+        left: 50%;
+        top: 8%;
+    }
+
+        #username{
+        position: relative;
+        left: 40%;
+        top: 20px;
+    }
+
+    #password{
+        position: relative;
+        left: 40%;
+        top: 20px;
+    }
+
+    #submit{
+        position: relative;
+        left: 40%;
+        top: 40px;
+    }
+
+
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+</head>
+<body>
+    <div id="cube">
+        <h3>
+            register
+        </h3>
+        <br><br><br>
+        <form action="">
+            {%csrf_token%}
+            <div id="username">
+                username
+            </div>
+            <div id="div">
+                <input type="text" name="user">
+            </div>
+            <div id="password">
+                password
+            </div>
+            <div id="div2">
+                <input type="password" name="pass">
+            </div>
+            <div id="submit">
+                <input type="submit" value="register" formmethod="post">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

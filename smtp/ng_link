@@ -1,0 +1,125 @@
+t=2020-09-19T04:25:33+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:25:33+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:25:33+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:25:33+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:25:33+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:25:33+0000 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:25:33+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041
+t=2020-09-19T04:25:34+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:25:34+0000 lvl=info msg="client session established" obj=csess id=439232df3ea9
+t=2020-09-19T04:25:34+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:25:34+0000 lvl=info msg="client session established" obj=csess id=439232df3ea9
+t=2020-09-19T04:25:34+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://ad57d2f509f5.ngrok.io
+t=2020-09-19T04:25:34+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://ad57d2f509f5.ngrok.io
+t=2020-09-19T04:25:34+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://97c2dc2df1df.ngrok.io
+t=2020-09-19T04:25:34+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://97c2dc2df1df.ngrok.io
+t=2020-09-19T04:25:54+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2020-09-19T04:25:54+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:25:54+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:25:54+0000 lvl=info msg="accept failed" obj=csess id=439232df3ea9 err="reconnecting session closed"
+t=2020-09-19T04:25:57+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2020-09-19T04:25:57+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:25:57+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:25:57+0000 lvl=info msg="accept failed" obj=csess id=439232df3ea9 err="reconnecting session closed"
+t=2020-09-19T04:26:00+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:26:00+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:26:00+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:26:00+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:26:00+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:26:00+0000 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:26:00+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041
+t=2020-09-19T04:26:01+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:26:01+0000 lvl=info msg="client session established" obj=csess id=4fbfe4ee4dba
+t=2020-09-19T04:26:01+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:26:01+0000 lvl=info msg="client session established" obj=csess id=4fbfe4ee4dba
+t=2020-09-19T04:26:01+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://352617aab28e.ngrok.io
+t=2020-09-19T04:26:01+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://352617aab28e.ngrok.io
+t=2020-09-19T04:26:01+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://be7312fb5c5b.ngrok.io
+t=2020-09-19T04:26:01+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://be7312fb5c5b.ngrok.io
+t=2020-09-19T04:26:09+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2020-09-19T04:26:09+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:26:09+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:26:09+0000 lvl=info msg="accept failed" obj=csess id=4fbfe4ee4dba err="reconnecting session closed"
+t=2020-09-19T04:26:15+0000 lvl=info msg="Got quit command" obj=consoleui
+t=2020-09-19T04:26:15+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:26:15+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:26:15+0000 lvl=info msg="accept failed" obj=csess id=4fbfe4ee4dba err="reconnecting session closed"
+t=2020-09-19T04:26:18+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:26:18+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:26:18+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:26:18+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:26:18+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:26:18+0000 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:26:18+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041
+t=2020-09-19T04:26:19+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:26:19+0000 lvl=info msg="client session established" obj=csess id=e9d6fff0475b
+t=2020-09-19T04:26:19+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:26:19+0000 lvl=info msg="client session established" obj=csess id=e9d6fff0475b
+t=2020-09-19T04:26:19+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://6f9385b5a76f.ngrok.io
+t=2020-09-19T04:26:19+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://6f9385b5a76f.ngrok.io
+t=2020-09-19T04:26:19+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://7e8df72ef222.ngrok.io
+t=2020-09-19T04:26:19+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://7e8df72ef222.ngrok.io
+t=2020-09-19T04:26:42+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:26:42+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:26:42+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:26:42+0000 lvl=info msg="accept failed" obj=csess id=e9d6fff0475b err="reconnecting session closed"
+t=2020-09-19T04:26:42+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:26:42+0000 lvl=info msg="accept failed" obj=csess id=e9d6fff0475b err="reconnecting session closed"
+t=2020-09-19T04:26:43+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:26:43+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:26:43+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:26:43+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:26:43+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:26:43+0000 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:26:43+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041
+t=2020-09-19T04:26:44+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:26:44+0000 lvl=info msg="client session established" obj=csess id=6dbf31eaaec1
+t=2020-09-19T04:26:44+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:26:44+0000 lvl=info msg="client session established" obj=csess id=6dbf31eaaec1
+t=2020-09-19T04:26:44+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://83b47b8fccbb.ngrok.io
+t=2020-09-19T04:26:44+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://83b47b8fccbb.ngrok.io
+t=2020-09-19T04:26:44+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://3c6d23258643.ngrok.io
+t=2020-09-19T04:26:44+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://3c6d23258643.ngrok.io
+t=2020-09-19T04:27:20+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:27:20+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:27:20+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:27:20+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:27:21+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:27:21+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:27:21+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:27:21+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:27:21+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:27:21+0000 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:27:21+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041
+t=2020-09-19T04:27:22+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:27:22+0000 lvl=info msg="client session established" obj=csess id=92bd940a0ca6
+t=2020-09-19T04:27:22+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:27:22+0000 lvl=info msg="client session established" obj=csess id=92bd940a0ca6
+t=2020-09-19T04:27:22+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://7008063e3e8c.ngrok.io
+t=2020-09-19T04:27:22+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://7008063e3e8c.ngrok.io
+t=2020-09-19T04:27:22+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://3af3d3a63ed2.ngrok.io
+t=2020-09-19T04:27:22+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://3af3d3a63ed2.ngrok.io
+t=2020-09-19T04:28:05+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:28:05+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:28:05+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:28:05+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:28:05+0000 lvl=info msg="accept failed" obj=csess id=92bd940a0ca6 err="reconnecting session closed"
+t=2020-09-19T04:28:11+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:28:11+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:28:11+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:28:11+0000 lvl=info msg="no configuration paths supplied"
+t=2020-09-19T04:28:11+0000 lvl=info msg="ignoring default config path, could not stat it" path=/root/.ngrok2/ngrok.yml err="stat /root/.ngrok2/ngrok.yml: no such file or directory"
+t=2020-09-19T04:28:11+0000 lvl=warn msg="can't bind default web address, trying alternatives" obj=web addr=127.0.0.1:4040
+t=2020-09-19T04:28:11+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4041
+t=2020-09-19T04:28:12+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:28:12+0000 lvl=info msg="client session established" obj=csess id=a6ecdbf559ad
+t=2020-09-19T04:28:12+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2020-09-19T04:28:12+0000 lvl=info msg="client session established" obj=csess id=a6ecdbf559ad
+t=2020-09-19T04:28:12+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://4051fd167f67.ngrok.io
+t=2020-09-19T04:28:12+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://4051fd167f67.ngrok.io
+t=2020-09-19T04:28:12+0000 lvl=info msg="started tunnel" obj=tunnels name="command_line (http)" addr=http://localhost:80 url=http://4640b7ffa621.ngrok.io
+t=2020-09-19T04:28:12+0000 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:80 url=https://4640b7ffa621.ngrok.io
+t=2020-09-19T04:30:43+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:30:43+0000 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2020-09-19T04:30:43+0000 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2020-09-19T04:30:43+0000 lvl=info msg="session closing" obj=tunnels.session err=nil

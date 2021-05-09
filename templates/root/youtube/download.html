@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>youtube to mp3</title>
+</head>
+<style>
+    body{
+        background-color: #404040;
+    }
+
+    h2{
+        position: absolute;
+        top: 10%;
+        left: 0%;
+    }
+
+    #cr{
+        position: absolute;
+        bottom: 2%;
+        position: absolute;
+        left: 2%;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    li {
+      float: left;
+      border-right:1px solid #bbb;
+    }
+
+    li:last-child {
+      border-right: none;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: orange;
+    }
+
+    #meruba{
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        background: orange;
+        padding: 2%;
+    }
+
+    #ytm3{
+        position: relative;
+        left: 70px;
+        top: -10px;
+    }
+
+</style>
+
+<body>
+    <ul>
+        <li><a class="active" href="/">home</a></li>
+        <li><a href="/smtp">smtp</a></li>
+        <li><a href="/q">oauth</a></li>
+        <li><a href="/youtube/download">youtube to mp3</a></li>
+        <li style="float:right"><a href="/register/logout">logout</a></li>
+    </ul>
+    <h3 id="cr">&copy; eyal gabay</h3>
+    <div id="meruba">
+        <h1 id="ytm3">youtube to mp3</h1>
+        <label>link to download&nbsp;&nbsp;<input id="link" type="text"></label>
+        <button onclick="download()">download</button>
+
+    </div>
+</body>
+
+<script>
+function download(){
+    document.location = "download?download=" + document.getElementById("link").value;
+}
+</script>
+
+</html>

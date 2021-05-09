@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>notes</title>
+    <style>
+        body{
+            background-color: #262626;
+        }
+
+        h1{
+            color: #f2f2f2;
+        }
+
+        #text{
+            position: absolute;
+            right: 5%;
+            top: 5%;
+            // wight: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>notes {{ f }}</h1>
+    <form action="" method="post" id="form">
+        {% csrf_token %}
+        <label for="placeholder"></label><input type="text" id="placeholder" placeholder="page number"><br><br>
+        <label for="note_name"></label><input type="text" id="note_name" placeholder="note name"><br><br>
+    </form>
+    <button onclick="finish()">finish</button>
+    <label for="text"></label><textarea name="text" id="text" cols="100" rows="50"></textarea>
+</body>
+<img src="{% static 'w.jpg' %}" alt="My image">
+<video src="e"></video>
+<script>
+    const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+    function finish() {
+        if (document.getElementById("placeholder").value === "") {
+            alert("you didn't enter any page number");
+        } else (parseInt(document.getElementById("placeholder").value))
+        {
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", "notes", true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.setRequestHeader('X-CSRFToken', csrftoken);
+            data = JSON.stringify({"page_number": document.getElementById("placeholder").value,
+                "note_name": document.getElementById("note_name").value});
+            xhr.send(data);
+        }
+    }
+    var xhr = new XMLHttpRequest();
+            xhr.open("POST", "notes", true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+            xhr.setRequestHeader('X-CSRFToken', csrftoken);
+            data = JSON.stringify({"page_number": document.getElementById("placeholder").value,
+                "note_name": document.getElementById("note_name").value});
+            xhr.send(data);
+</script>
+</html>

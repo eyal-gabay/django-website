@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>workspace</title>
+</head>
+<style>
+    body{
+        background-color: #404040;
+    }
+
+    h2{
+        position: absolute;
+        top: 10%;
+        left: 0%;
+    }
+
+    #cr{
+        position: absolute;
+        bottom: 2%;
+        position: absolute;
+        left: 2%;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    li {
+      float: left;
+      border-right:1px solid #bbb;
+    }
+
+    li:last-child {
+      border-right: none;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+
+    .active {
+      background-color: orange;
+    }
+
+    .cp{
+        font-size: 30px;
+    }
+
+    code{
+        font-size: 17px;
+    {
+
+    #code{
+        background-color: red;
+    }
+</style>
+
+<body>
+    <ul>
+        <li><a class="active" href="/">home</a></li>
+        <li><a href="smtp">smtp</a></li>
+        <li><a href="q">oauth</a></li>
+        <li><a href="youtube/download">youtube to mp3</a></li>
+        <li><a href="/workspace.php">workspace</a></li>
+        <li style="float:right"><a href="/register/logout">logout</a></li>
+    </ul>
+    <br><br><br>
+    <p class="cp">copy this code:</p>
+    <div id="code">
+        <code>
+            from sys import argv <br>
+import time <br>
+import requests <br>
+import os <br>
+            <br>
+            <br>
+def send(): <br>
+    start = time.time() <br>
+    csrf = requests.get("http://127.0.0.1:80/workspace").cookies["csrftoken"] <br>
+            <br>
+    directory = "www" <br>
+            <br>
+    ls = os.popen(f"find {directory} -type f ").read() <br>
+    for file in ls.splitlines(): <br>
+        requests.post(f'http://127.0.0.1:80/workspace?name={file.replace(directory + "/", "")}', <br>
+                      files={'file': ('file.txt', open(file, 'rb'))}, <br>
+                      cookies={"csrftoken": csrf}, <br>
+                      headers={"X-CSRFToken": csrf}) <br>
+
+
+def get():
+    r = requests.get("http://127.0.0.1/workspace") <br>
+    csrf = r.cookies["csrftoken"] <br>
+
+    all_the_files = [] <br>
+    for file_to_open in r.text.split("qwe123")[1].split("qwe321")[0].splitlines(): <br>
+        if file_to_open: <br>
+            all_the_files.append(file_to_open.strip()) <br>
+            <br>
+    for file in all_the_files: <br>
+        if file: <br>
+            p = requests.post("http://127.0.0.1/workspace?file=" + file, <br>
+                              cookies={"csrftoken": csrf}, <br>
+                              headers={"X-CSRFToken": csrf}) <br>
+            open("www/" + file, "w").write(p.text) <br>
+            <br>
+            <br>
+if __name__ == '__main__': <br>
+    if len(argv) > 1: <br>
+        if argv[1] == "send": <br>
+            send() <br>
+        elif argv[1] == "get": <br>
+            get() b <br>
+    else: <br>
+        while 1: <br>
+            get() <br>
+            time.sleep(1) <br>
+            send() <br>
+            time.sleep(1) <br>
+            <br> <br> <br> <br>
+        </code>
+    </div>
+<!--    <h3 id="cr">&copy; eyal gabay</h3>-->
+<button id="Copy">Copy “Text to copy!” to clipboard</button>
+<br><br>
+<input placeholder="Paste here, to try!">
+</body>
+
+<script>
+function Clipboard_CopyTo(value) {
+  var tempInput = document.createElement("input");
+  tempInput.value = value;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+}
+
+document.querySelector('#Copy').onclick = function() {
+  Clipboard_CopyTo('Text to copy!');
+}
+</script>
+
+</html>

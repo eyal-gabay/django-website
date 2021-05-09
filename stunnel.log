@@ -1,0 +1,376 @@
+2020.10.14 05:13:52 LOG5[ui]: stunnel 5.56 on x86_64-pc-linux-gnu platform
+2020.10.14 05:13:52 LOG5[ui]: Compiled/running with OpenSSL 1.1.1g  21 Apr 2020
+2020.10.14 05:13:52 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6,SYSTEMD TLS:ENGINE,FIPS,OCSP,PSK,SNI Auth:LIBWRAP
+2020.10.14 05:13:52 LOG5[ui]: Reading configuration from file /home/eyal/PycharmProjects/python/oauth2/stunnel/dev_https
+2020.10.14 05:13:52 LOG5[ui]: UTF-8 byte order mark not detected
+2020.10.14 05:13:52 LOG5[ui]: FIPS mode disabled
+2020.10.14 05:13:52 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.10.14 05:13:52 LOG5[ui]: Configuration successful
+2020.10.14 05:13:52 LOG5[ui]: Binding service [https] to :::8443: Address already in use (98)
+2020.10.14 05:14:06 LOG3[ui]: Received SIGINT; terminating
+2020.10.14 05:14:06 LOG5[ui]: Terminating 1 service thread(s)
+2020.10.14 05:14:06 LOG5[ui]: Service threads terminated
+2020.10.14 05:14:24 LOG5[ui]: stunnel 5.56 on x86_64-pc-linux-gnu platform
+2020.10.14 05:14:24 LOG5[ui]: Compiled/running with OpenSSL 1.1.1g  21 Apr 2020
+2020.10.14 05:14:24 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6,SYSTEMD TLS:ENGINE,FIPS,OCSP,PSK,SNI Auth:LIBWRAP
+2020.10.14 05:14:24 LOG5[ui]: Reading configuration from file /home/eyal/PycharmProjects/python/oauth2/stunnel/dev_https
+2020.10.14 05:14:24 LOG5[ui]: UTF-8 byte order mark not detected
+2020.10.14 05:14:24 LOG5[ui]: FIPS mode disabled
+2020.10.14 05:14:24 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.10.14 05:14:24 LOG5[ui]: Configuration successful
+2020.10.14 05:14:24 LOG5[ui]: Binding service [https] to :::8443: Address already in use (98)
+2020.10.14 05:17:52 LOG5[0]: Service [https] accepted connection from 127.0.0.1:46536
+2020.10.14 05:17:52 LOG5[1]: Service [https] accepted connection from 127.0.0.1:46538
+2020.10.14 05:17:52 LOG3[1]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:52 LOG3[0]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:52 LOG5[1]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:52 LOG5[0]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:52 LOG5[2]: Service [https] accepted connection from 127.0.0.1:46542
+2020.10.14 05:17:52 LOG3[2]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:52 LOG5[2]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:52 LOG5[3]: Service [https] accepted connection from 127.0.0.1:46544
+2020.10.14 05:17:52 LOG3[3]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:52 LOG5[3]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:52 LOG5[4]: Service [https] accepted connection from 127.0.0.1:46546
+2020.10.14 05:17:52 LOG3[4]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:52 LOG5[4]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:56 LOG5[5]: Service [https] accepted connection from 127.0.0.1:46548
+2020.10.14 05:17:56 LOG3[5]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:56 LOG5[5]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:57 LOG5[7]: Service [https] accepted connection from 127.0.0.1:46554
+2020.10.14 05:17:57 LOG3[7]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:57 LOG5[7]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:57 LOG5[6]: Service [https] accepted connection from 127.0.0.1:46550
+2020.10.14 05:17:57 LOG3[6]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:57 LOG5[6]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:57 LOG5[8]: Service [https] accepted connection from 127.0.0.1:46556
+2020.10.14 05:17:57 LOG3[8]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:57 LOG5[8]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:57 LOG5[9]: Service [https] accepted connection from 127.0.0.1:46558
+2020.10.14 05:17:57 LOG3[9]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:57 LOG5[9]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:57 LOG5[10]: Service [https] accepted connection from 127.0.0.1:46560
+2020.10.14 05:17:57 LOG3[10]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:57 LOG5[10]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:57 LOG5[12]: Service [https] accepted connection from 127.0.0.1:46564
+2020.10.14 05:17:57 LOG5[11]: Service [https] accepted connection from 127.0.0.1:46562
+2020.10.14 05:17:57 LOG3[12]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:57 LOG3[11]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:57 LOG5[12]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:57 LOG5[11]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:57 LOG5[13]: Service [https] accepted connection from 127.0.0.1:46568
+2020.10.14 05:17:57 LOG3[13]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:57 LOG5[13]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:57 LOG5[14]: Service [https] accepted connection from 127.0.0.1:46570
+2020.10.14 05:17:57 LOG3[14]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:57 LOG5[14]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:57 LOG5[15]: Service [https] accepted connection from 127.0.0.1:46572
+2020.10.14 05:17:57 LOG3[15]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:57 LOG5[15]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:58 LOG5[16]: Service [https] accepted connection from 127.0.0.1:46574
+2020.10.14 05:17:58 LOG3[16]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:58 LOG5[18]: Service [https] accepted connection from 127.0.0.1:46580
+2020.10.14 05:17:58 LOG5[16]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:58 LOG3[18]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:58 LOG5[18]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:58 LOG5[17]: Service [https] accepted connection from 127.0.0.1:46576
+2020.10.14 05:17:58 LOG3[17]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:58 LOG5[19]: Service [https] accepted connection from 127.0.0.1:46582
+2020.10.14 05:17:58 LOG5[17]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:58 LOG3[19]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:58 LOG5[19]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:58 LOG5[20]: Service [https] accepted connection from 127.0.0.1:46584
+2020.10.14 05:17:58 LOG3[20]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:58 LOG5[20]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:58 LOG5[21]: Service [https] accepted connection from 127.0.0.1:46586
+2020.10.14 05:17:58 LOG3[21]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:58 LOG5[21]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:59 LOG5[22]: Service [https] accepted connection from 127.0.0.1:46588
+2020.10.14 05:17:59 LOG5[23]: Service [https] accepted connection from 127.0.0.1:46590
+2020.10.14 05:17:59 LOG3[22]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:59 LOG3[23]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:59 LOG5[22]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:59 LOG5[23]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:59 LOG5[24]: Service [https] accepted connection from 127.0.0.1:46594
+2020.10.14 05:17:59 LOG3[24]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:59 LOG5[24]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:59 LOG5[25]: Service [https] accepted connection from 127.0.0.1:46596
+2020.10.14 05:17:59 LOG3[25]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:59 LOG5[25]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:59 LOG5[26]: Service [https] accepted connection from 127.0.0.1:46598
+2020.10.14 05:17:59 LOG3[26]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:59 LOG5[26]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:17:59 LOG5[27]: Service [https] accepted connection from 127.0.0.1:46600
+2020.10.14 05:17:59 LOG3[27]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:17:59 LOG5[27]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:18:02 LOG5[29]: Service [https] accepted connection from 127.0.0.1:46604
+2020.10.14 05:18:02 LOG5[28]: Service [https] accepted connection from 127.0.0.1:46602
+2020.10.14 05:18:02 LOG3[29]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:18:02 LOG5[29]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:18:02 LOG3[28]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:18:02 LOG5[28]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:18:02 LOG5[30]: Service [https] accepted connection from 127.0.0.1:46608
+2020.10.14 05:18:02 LOG3[30]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:18:02 LOG5[30]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:20:10 LOG5[ui]: stunnel 5.56 on x86_64-pc-linux-gnu platform
+2020.10.14 05:20:10 LOG5[ui]: Compiled/running with OpenSSL 1.1.1g  21 Apr 2020
+2020.10.14 05:20:10 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6,SYSTEMD TLS:ENGINE,FIPS,OCSP,PSK,SNI Auth:LIBWRAP
+2020.10.14 05:20:10 LOG5[ui]: Reading configuration from file /home/eyal/PycharmProjects/python/oauth2/stunnel/dev_https
+2020.10.14 05:20:10 LOG5[ui]: UTF-8 byte order mark not detected
+2020.10.14 05:20:10 LOG5[ui]: FIPS mode disabled
+2020.10.14 05:20:10 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.10.14 05:20:10 LOG5[ui]: Configuration successful
+2020.10.14 05:20:10 LOG5[ui]: Binding service [https] to :::443: Address already in use (98)
+2020.10.14 05:20:24 LOG3[ui]: Received SIGINT; terminating
+2020.10.14 05:20:24 LOG5[ui]: Terminating 1 service thread(s)
+2020.10.14 05:20:24 LOG5[ui]: Service threads terminated
+2020.10.14 05:20:39 LOG5[ui]: stunnel 5.56 on x86_64-pc-linux-gnu platform
+2020.10.14 05:20:39 LOG5[ui]: Compiled/running with OpenSSL 1.1.1g  21 Apr 2020
+2020.10.14 05:20:39 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6,SYSTEMD TLS:ENGINE,FIPS,OCSP,PSK,SNI Auth:LIBWRAP
+2020.10.14 05:20:39 LOG5[ui]: Reading configuration from file /home/eyal/PycharmProjects/python/oauth2/stunnel/dev_https
+2020.10.14 05:20:39 LOG5[ui]: UTF-8 byte order mark not detected
+2020.10.14 05:20:39 LOG5[ui]: FIPS mode disabled
+2020.10.14 05:20:39 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.10.14 05:20:39 LOG5[ui]: Configuration successful
+2020.10.14 05:20:39 LOG5[ui]: Binding service [https] to :::4433: Address already in use (98)
+2020.10.14 05:20:46 LOG3[ui]: Received SIGINT; terminating
+2020.10.14 05:20:46 LOG5[ui]: Terminating 1 service thread(s)
+2020.10.14 05:20:46 LOG5[ui]: Service threads terminated
+2020.10.14 05:20:51 LOG5[ui]: stunnel 5.56 on x86_64-pc-linux-gnu platform
+2020.10.14 05:20:51 LOG5[ui]: Compiled/running with OpenSSL 1.1.1g  21 Apr 2020
+2020.10.14 05:20:51 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6,SYSTEMD TLS:ENGINE,FIPS,OCSP,PSK,SNI Auth:LIBWRAP
+2020.10.14 05:20:51 LOG5[ui]: Reading configuration from file /home/eyal/PycharmProjects/python/oauth2/stunnel/dev_https
+2020.10.14 05:20:51 LOG5[ui]: UTF-8 byte order mark not detected
+2020.10.14 05:20:51 LOG5[ui]: FIPS mode disabled
+2020.10.14 05:20:51 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.10.14 05:20:51 LOG5[ui]: Configuration successful
+2020.10.14 05:20:51 LOG5[ui]: Binding service [https] to :::4433: Address already in use (98)
+2020.10.14 05:21:51 LOG5[ui]: stunnel 5.56 on x86_64-pc-linux-gnu platform
+2020.10.14 05:21:51 LOG5[ui]: Compiled/running with OpenSSL 1.1.1g  21 Apr 2020
+2020.10.14 05:21:51 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6,SYSTEMD TLS:ENGINE,FIPS,OCSP,PSK,SNI Auth:LIBWRAP
+2020.10.14 05:21:51 LOG5[ui]: Reading configuration from file /home/eyal/PycharmProjects/python/oauth2/stunnel/dev_https
+2020.10.14 05:21:51 LOG5[ui]: UTF-8 byte order mark not detected
+2020.10.14 05:21:51 LOG5[ui]: FIPS mode disabled
+2020.10.14 05:21:51 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.10.14 05:21:51 LOG5[ui]: Configuration successful
+2020.10.14 05:21:51 LOG5[ui]: Binding service [https] to :::18443: Address already in use (98)
+2020.10.14 05:22:07 LOG5[1]: Service [https] accepted connection from 127.0.0.1:45798
+2020.10.14 05:22:07 LOG5[0]: Service [https] accepted connection from 127.0.0.1:45796
+2020.10.14 05:22:07 LOG3[0]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:07 LOG3[1]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:07 LOG5[0]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:07 LOG5[1]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:07 LOG5[2]: Service [https] accepted connection from 127.0.0.1:45802
+2020.10.14 05:22:07 LOG3[2]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:07 LOG5[2]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:17 LOG5[3]: Service [https] accepted connection from 127.0.0.1:45816
+2020.10.14 05:22:17 LOG5[4]: Service [https] accepted connection from 127.0.0.1:45818
+2020.10.14 05:22:17 LOG3[4]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:17 LOG5[4]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:17 LOG3[3]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:17 LOG5[3]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:17 LOG5[5]: Service [https] accepted connection from 127.0.0.1:45822
+2020.10.14 05:22:17 LOG3[5]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:17 LOG5[5]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:23 LOG5[6]: Service [https] accepted connection from 127.0.0.1:45824
+2020.10.14 05:22:23 LOG5[7]: Service [https] accepted connection from 127.0.0.1:45826
+2020.10.14 05:22:23 LOG3[6]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:23 LOG5[6]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:23 LOG5[8]: Service [https] accepted connection from 127.0.0.1:45830
+2020.10.14 05:22:23 LOG3[7]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:23 LOG5[7]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:23 LOG3[8]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:23 LOG5[8]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:23 LOG5[9]: Service [https] accepted connection from 127.0.0.1:45832
+2020.10.14 05:22:23 LOG3[9]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:23 LOG5[9]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:23 LOG5[10]: Service [https] accepted connection from 127.0.0.1:45834
+2020.10.14 05:22:23 LOG3[10]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:23 LOG5[10]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:23 LOG5[11]: Service [https] accepted connection from 127.0.0.1:45836
+2020.10.14 05:22:23 LOG3[11]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:23 LOG5[11]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:40 LOG5[31]: Service [https] accepted connection from 127.0.0.1:46658
+2020.10.14 05:22:40 LOG3[31]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:40 LOG5[31]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:40 LOG5[32]: Service [https] accepted connection from 127.0.0.1:46660
+2020.10.14 05:22:40 LOG3[32]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:40 LOG5[32]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:40 LOG5[33]: Service [https] accepted connection from 127.0.0.1:46664
+2020.10.14 05:22:40 LOG3[33]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:40 LOG5[33]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:40 LOG5[34]: Service [https] accepted connection from 127.0.0.1:46666
+2020.10.14 05:22:40 LOG3[34]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:40 LOG5[34]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:40 LOG5[35]: Service [https] accepted connection from 127.0.0.1:46668
+2020.10.14 05:22:40 LOG3[35]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:40 LOG5[35]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:22:40 LOG5[36]: Service [https] accepted connection from 127.0.0.1:46670
+2020.10.14 05:22:40 LOG3[36]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:22:40 LOG5[36]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:29:11 LOG5[37]: Service [https] accepted connection from 10.0.0.4:33722
+2020.10.14 05:29:11 LOG5[38]: Service [https] accepted connection from 10.0.0.4:33724
+2020.10.14 05:29:11 LOG3[37]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:29:11 LOG3[38]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:29:11 LOG5[37]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:29:11 LOG5[38]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:29:11 LOG5[40]: Service [https] accepted connection from 10.0.0.4:33728
+2020.10.14 05:29:11 LOG3[40]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:29:11 LOG5[40]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:29:11 LOG5[39]: Service [https] accepted connection from 10.0.0.4:33726
+2020.10.14 05:29:11 LOG3[39]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:29:11 LOG5[39]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:29:11 LOG5[41]: Service [https] accepted connection from 10.0.0.4:33730
+2020.10.14 05:29:11 LOG3[41]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:29:11 LOG5[41]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:29:11 LOG5[42]: Service [https] accepted connection from 10.0.0.4:33732
+2020.10.14 05:29:11 LOG3[42]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:29:11 LOG5[42]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:23 LOG5[43]: Service [https] accepted connection from 127.0.0.1:46758
+2020.10.14 05:32:23 LOG5[44]: Service [https] accepted connection from 127.0.0.1:46760
+2020.10.14 05:32:23 LOG3[43]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:23 LOG5[43]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:23 LOG3[44]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:23 LOG5[44]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:23 LOG5[45]: Service [https] accepted connection from 127.0.0.1:46764
+2020.10.14 05:32:23 LOG3[45]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:23 LOG5[45]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:23 LOG5[47]: Service [https] accepted connection from 127.0.0.1:46768
+2020.10.14 05:32:23 LOG3[47]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:23 LOG5[47]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:23 LOG5[46]: Service [https] accepted connection from 127.0.0.1:46766
+2020.10.14 05:32:23 LOG3[46]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:23 LOG5[46]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:23 LOG5[48]: Service [https] accepted connection from 127.0.0.1:46772
+2020.10.14 05:32:23 LOG3[48]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:23 LOG5[48]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:28 LOG5[50]: Service [https] accepted connection from 127.0.0.1:46776
+2020.10.14 05:32:28 LOG5[49]: Service [https] accepted connection from 127.0.0.1:46774
+2020.10.14 05:32:28 LOG3[50]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:28 LOG3[49]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:28 LOG5[50]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:28 LOG5[49]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:28 LOG5[51]: Service [https] accepted connection from 127.0.0.1:46780
+2020.10.14 05:32:28 LOG3[51]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:28 LOG5[51]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:49 LOG5[ui]: stunnel 5.56 on x86_64-pc-linux-gnu platform
+2020.10.14 05:32:49 LOG5[ui]: Compiled/running with OpenSSL 1.1.1g  21 Apr 2020
+2020.10.14 05:32:49 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6,SYSTEMD TLS:ENGINE,FIPS,OCSP,PSK,SNI Auth:LIBWRAP
+2020.10.14 05:32:49 LOG5[ui]: Reading configuration from file /home/eyal/PycharmProjects/python/oauth2/stunnel/dev_https
+2020.10.14 05:32:49 LOG5[ui]: UTF-8 byte order mark not detected
+2020.10.14 05:32:49 LOG5[ui]: FIPS mode disabled
+2020.10.14 05:32:49 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.10.14 05:32:49 LOG5[ui]: Configuration successful
+2020.10.14 05:32:58 LOG5[52]: Service [https] accepted connection from 127.0.0.1:46782
+2020.10.14 05:32:58 LOG5[53]: Service [https] accepted connection from 127.0.0.1:46784
+2020.10.14 05:32:58 LOG3[52]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:58 LOG3[53]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:58 LOG5[52]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:58 LOG5[53]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:32:58 LOG5[54]: Service [https] accepted connection from 127.0.0.1:46788
+2020.10.14 05:32:58 LOG3[54]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:32:58 LOG5[54]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:20 LOG5[0]: Service [https] accepted connection from 127.0.0.1:59748
+2020.10.14 05:33:20 LOG3[0]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:20 LOG5[0]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:20 LOG5[1]: Service [https] accepted connection from 127.0.0.1:59750
+2020.10.14 05:33:20 LOG3[1]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:20 LOG5[1]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:20 LOG5[2]: Service [https] accepted connection from 127.0.0.1:59754
+2020.10.14 05:33:20 LOG3[2]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:20 LOG5[2]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:23 LOG5[3]: Service [https] accepted connection from 127.0.0.1:59756
+2020.10.14 05:33:23 LOG5[4]: Service [https] accepted connection from 127.0.0.1:59758
+2020.10.14 05:33:23 LOG3[3]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:23 LOG5[3]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:23 LOG3[4]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:23 LOG5[4]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:23 LOG5[5]: Service [https] accepted connection from 127.0.0.1:59762
+2020.10.14 05:33:23 LOG3[5]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:23 LOG5[5]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:29 LOG5[7]: Service [https] accepted connection from 127.0.0.1:59766
+2020.10.14 05:33:29 LOG3[7]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:29 LOG5[7]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:29 LOG5[6]: Service [https] accepted connection from 127.0.0.1:59764
+2020.10.14 05:33:29 LOG3[6]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:29 LOG5[6]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:29 LOG5[8]: Service [https] accepted connection from 127.0.0.1:59770
+2020.10.14 05:33:29 LOG3[8]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:29 LOG5[8]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:35 LOG5[9]: Service [https] accepted connection from 127.0.0.1:59772
+2020.10.14 05:33:35 LOG3[9]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:35 LOG5[9]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:35 LOG5[11]: Service [https] accepted connection from 127.0.0.1:59776
+2020.10.14 05:33:35 LOG3[11]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:35 LOG5[11]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:35 LOG5[10]: Service [https] accepted connection from 127.0.0.1:59774
+2020.10.14 05:33:35 LOG3[10]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:35 LOG5[10]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:35 LOG5[12]: Service [https] accepted connection from 127.0.0.1:59780
+2020.10.14 05:33:35 LOG3[12]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:35 LOG5[12]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:35 LOG5[13]: Service [https] accepted connection from 127.0.0.1:59782
+2020.10.14 05:33:35 LOG3[13]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:35 LOG5[13]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:35 LOG5[14]: Service [https] accepted connection from 127.0.0.1:59784
+2020.10.14 05:33:35 LOG3[14]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:35 LOG5[14]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:37 LOG5[16]: Service [https] accepted connection from 127.0.0.1:59788
+2020.10.14 05:33:37 LOG3[16]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:37 LOG5[16]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:37 LOG5[15]: Service [https] accepted connection from 127.0.0.1:59786
+2020.10.14 05:33:37 LOG3[15]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:37 LOG5[15]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:37 LOG5[17]: Service [https] accepted connection from 127.0.0.1:59792
+2020.10.14 05:33:37 LOG3[17]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:37 LOG5[17]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:37 LOG5[18]: Service [https] accepted connection from 127.0.0.1:59794
+2020.10.14 05:33:37 LOG3[18]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:37 LOG5[18]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:37 LOG5[19]: Service [https] accepted connection from 127.0.0.1:59796
+2020.10.14 05:33:37 LOG3[19]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:37 LOG5[19]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:33:37 LOG5[20]: Service [https] accepted connection from 127.0.0.1:59798
+2020.10.14 05:33:37 LOG3[20]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:33:37 LOG5[20]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:35:00 LOG5[ui]: stunnel 5.56 on x86_64-pc-linux-gnu platform
+2020.10.14 05:35:00 LOG5[ui]: Compiled/running with OpenSSL 1.1.1g  21 Apr 2020
+2020.10.14 05:35:00 LOG5[ui]: Threading:PTHREAD Sockets:POLL,IPv6,SYSTEMD TLS:ENGINE,FIPS,OCSP,PSK,SNI Auth:LIBWRAP
+2020.10.14 05:35:00 LOG5[ui]: Reading configuration from file /home/eyal/PycharmProjects/python/oauth2/stunnel/dev_https
+2020.10.14 05:35:00 LOG5[ui]: UTF-8 byte order mark not detected
+2020.10.14 05:35:00 LOG5[ui]: FIPS mode disabled
+2020.10.14 05:35:00 LOG4[ui]: Insecure file permissions on stunnel/stunnel.pem
+2020.10.14 05:35:00 LOG5[ui]: Configuration successful
+2020.10.14 05:35:13 LOG5[0]: Service [https] accepted connection from 127.0.0.1:36268
+2020.10.14 05:35:13 LOG5[1]: Service [https] accepted connection from 127.0.0.1:36270
+2020.10.14 05:35:13 LOG3[1]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:35:13 LOG3[0]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:35:13 LOG5[1]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:35:13 LOG5[0]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:35:13 LOG5[2]: Service [https] accepted connection from 127.0.0.1:36272
+2020.10.14 05:35:13 LOG3[2]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:35:13 LOG5[3]: Service [https] accepted connection from 127.0.0.1:36274
+2020.10.14 05:35:13 LOG5[2]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:35:13 LOG3[3]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:35:13 LOG5[3]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:35:13 LOG5[4]: Service [https] accepted connection from 127.0.0.1:36278
+2020.10.14 05:35:13 LOG3[4]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:35:13 LOG5[4]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 05:35:13 LOG5[5]: Service [https] accepted connection from 127.0.0.1:36280
+2020.10.14 05:35:13 LOG3[5]: SSL_accept: ../ssl/statem/statem_lib.c:109: error:141FC044:SSL routines:tls_setup_handshake:internal error
+2020.10.14 05:35:13 LOG5[5]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2020.10.14 11:13:19 LOG5[ui]: Terminated
+2020.10.14 11:13:19 LOG5[ui]: Terminated
+2020.10.14 11:13:19 LOG5[ui]: Terminating 1 service thread(s)
+2020.10.14 11:13:19 LOG5[ui]: Terminating 1 service thread(s)
+2020.10.14 11:13:19 LOG5[ui]: Terminated
+2020.10.14 11:13:19 LOG5[ui]: Terminating 1 service thread(s)
+2020.10.14 11:13:19 LOG5[ui]: Terminated
+2020.10.14 11:13:19 LOG5[ui]: Terminating 1 service thread(s)
+2020.10.14 11:13:19 LOG5[ui]: Terminated
+2020.10.14 11:13:19 LOG5[ui]: Terminating 1 service thread(s)
+2020.10.14 11:13:19 LOG5[ui]: Service threads terminated
+2020.10.14 11:13:19 LOG5[ui]: Service threads terminated
+2020.10.14 11:13:19 LOG5[ui]: Service threads terminated
+2020.10.14 11:13:19 LOG5[ui]: Service threads terminated
+2020.10.14 11:13:19 LOG5[ui]: Service threads terminated
